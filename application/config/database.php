@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'OPENSHIFT_MYSQL_DB_HOST';
+$db['default']['hostname'] = 'https://bewhere-webdotph.rhcloud.com/phpmyadmin/';
 $db['default']['username'] = 'adminzA6QSJI';
 $db['default']['password'] = 'uVGlry2CJCgc';
 $db['default']['database'] = 'bewhere';
