@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '127.8.141.2';
-$db['default']['username'] = 'adminmfyMXqF';
-$db['default']['password'] = 'askBjyJ6WDnd';
+$db['default']['hostname'] = 'OPENSHIFT_MYSQL_DB_HOST';
+$db['default']['username'] = 'OPENSHIFT_MYSQL_DB_USERNAME';
+$db['default']['password'] = 'OPENSHIFT_MYSQL_DB_PASSWORD';
 $db['default']['database'] = 'bewhere';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
